@@ -1,4 +1,4 @@
-################################################################################
+###############################################################################
 # Attach data set To working env
 attach(dataScienceJobSalaries)
 
@@ -334,5 +334,5 @@ finalDataSet = finalDataSet[order(finalDataSet$work_year),]
 
 write.csv(finalDataSet,"DataScienceJobDomainSalaries.csv",row.names = F)
 
-###############################################################################3
+###############################################################################
 #END!!!
