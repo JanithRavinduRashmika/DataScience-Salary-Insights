@@ -1,0 +1,112 @@
+---
+title: "Data Analysing"
+output: html_notebook
+---
+
+## Libries
+```{r}
+library(countrycode)
+library(plyr)
+library(ggplot2)
+library(dplyr)
+
+```
+
+### Import Data set
+```{r}
+dataSet = read.csv("cleanedDataSet.csv")
+head(dataSet)
+```
+
+
+# Distribution of employees by country
+
+Since employee_residence data in ISO alpha 2 format, we have to convert it into standard country names.
+after that we take frequency of countries.
+```{r}
+countryName = countrycode::countrycode(dataSet$employee_residence, "iso2c", "country.name")
+
+countryFreq = plyr::count(countryName)
+countryFreq
+```
+
+To plot these data first we use map_data in ggplot
+```{r}
+mapData = map_data("world")
+mapData
+```
+Note that following countries has different names in *mapData*. Therefore we have to change these name.
+
+```{r}
+countryFreq$x[!(countryFreq$x %in% mapData$region)]
+```
+```{r}
+countryFreq$x[countryFreq$x == "Bosnia & Herzegovina"] = "Bosnia and Herzegovina"
+countryFreq$x[countryFreq$x == "Czechia"] = "Czech Republic"
+countryFreq$x[countryFreq$x == "Hong Kong SAR China"] = "China"
+countryFreq$x[countryFreq$x == "United Kingdom"] = "UK"
+countryFreq$x[countryFreq$x == "United States"] = "USA"
+
+
+
+countryFreq$x[!(countryFreq$x %in% mapData$region)]
+colnames(countryFreq)[1] = "region"
+
+countryFreq["logFreq"] = log10(countryFreq$freq)
+countryFreq
+```
+Let's plot the data.
+
+```{r warning=FALSE}
+
+mapData = dplyr::left_join(mapData,countryFreq,by = "region")
+
+
+ggplot(mapData,aes(mapData$long,mapData$lat,group=mapData$group))+
+  geom_polygon(aes(fill = mapData$logFreq),color = "#373737")+
+  scale_fill_gradient(low = "#d75ca2",high = "#410179",na.value = "#c0c0c2",breaks =c(0,1,2,3),labels = c("0","10","100","1000"),name = "")+
+  labs(title = "Distribution of Employees by Country",x="",y="")+
+  scale_x_continuous(labels = NULL)+
+  scale_y_continuous(labels = NULL)+
+  theme_linedraw()
+
+```
+
+## Distribution of Companies by Country
+
+
+```{r}
+companyLoc = countrycode::countrycode(dataSet$company_location, "iso2c", "country.name")
+
+companyFreq = plyr::count(companyLoc)
+
+mapData = map_data("world")
+
+companyFreq$x[!(companyFreq$x %in% mapData$region)]
+
+companyFreq$x[companyFreq$x == "Bosnia & Herzegovina"] = "Bosnia and Herzegovina"
+companyFreq$x[companyFreq$x == "Czechia"] = "Czech Republic"
+companyFreq$x[companyFreq$x == "Hong Kong SAR China"] = "China"
+companyFreq$x[companyFreq$x == "United Kingdom"] = "UK"
+companyFreq$x[companyFreq$x == "United States"] = "USA"
+
+
+
+companyFreq$x[!(companyFreq$x %in% mapData$region)]
+colnames(companyFreq)[1] = "region"
+
+companyFreq["logFreq"] = log10(companyFreq$freq)
+
+mapData = dplyr::left_join(mapData,companyFreq,by = "region")
+
+
+ggplot(mapData,aes(mapData$long,mapData$lat,group=mapData$group))+
+  geom_polygon(aes(fill = mapData$logFreq),color = "#373737")+
+  scale_fill_gradient(low = "#67e26d",high = "#065064",na.value = "#c0c0c2",breaks =c(0,1,2,3),labels = c("0","10","100","1000"),name = "")+
+  labs(title = "Distribution of Company by Country",x="",y="")+
+  scale_x_continuous(labels = NULL)+
+  scale_y_continuous(labels = NULL)+
+  theme_linedraw()
+
+```
+
