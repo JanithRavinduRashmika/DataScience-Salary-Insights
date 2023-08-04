@@ -110,3 +110,21 @@ ggplot(mapData,aes(mapData$long,mapData$lat,group=mapData$group))+
 
 ```
 
+### Most common Data Science related job field
+
+```{r}
+library(wordcloud2)
+library(RColorBrewer)
+
+cJobT = plyr::count(dataSet$job_title)
+
+cJobT = cJobT[order(cJobT$freq,decreasing = T),]
+cJobT = cJobT[1:100,]
+cJobT["sqrtFreq"] = sqrt(cJobT$freq)
+cJobT
+
+set.seed(5)
+wordcloud2(cJobT[c(1,3)],size = 0.5)
+
+```
+
