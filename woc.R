@@ -1,33 +1,33 @@
+dataSet
+
+
+summary(as.factor(dataSet$job_category))
+summary(as.factor(dataSet$company_size))
+
+jo = table(dataSet$job_category)
+jo
+
 library(ggplot2)
-library(plyr)
-library(wordcloud)
-library(RColorBrewer)
+library(dplyr)
+library(scales)
 
-View(dataSet)
+scaplyr::count(dataSet$job_category)
 
-cJobT = plyr::count(dataSet$job_title)
-
-cJobT = cJobT[order(cJobT$freq,decreasing = T),]
-cJobT = cJobT[1:100,]
-cJobT["sqrtFreq"] = sqrt(cJobT$freq)
-cJobT
-set.seed(4)
-wordcloud(words = cJobT$x,freq = cJobT$sqrtFreq,colors = brewer.pal(8,"Dark2"),random.order = T,
-          random.color = T,scale = c(4,0.25),use.r.layout = T,rot.per = 0.2)
-
-
-set.seed(25)
-wordcloud(words = cJobT$x,freq = cJobT$sqrtFreq,colors = brewer.pal(8,"Dark2"),random.order = T,
-          random.color = T,scale = c(3,0.5),use.r.layout = T)
-
-?wordcloud
-
-
-ggplot(dataSet,aes())
+ggplot(jo,aes(jo$,))
 
 
 
-library(wordcloud2)
+
+# R Base aggregate() on multiple columns
+barD <- aggregate(dataSet$job_category, by=list(dataSet$company_size,dataSet
+                                                  $job_category), FUN=length)
+barD
 
 
-wordcloud2(cJobT[c(1,3)])
+ggplot(barD,aes(barD$Group.2,barD$x,fill = barD$Group.1))+
+  geom_bar(position = "fill",stat = "identity",legend=F)+
+  scale_y_continuous(labels = percent)+
+  labs(title = "Company Sizes Across Job Category",x = "Job Category",y = "Percentage")+
+  theme(axis.title = element_text(face = "bold"),plot.title = element_text(face = "bold",size = 16),axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
+        legend.title = element_blank())
+  
