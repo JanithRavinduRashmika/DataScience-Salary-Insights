@@ -18,6 +18,8 @@ dataSet = read.csv("cleanedDataSet.csv")
 head(dataSet)
 ```
 
+### Change categorical variables type
+
 
 # Distribution of employees by country
 
@@ -141,6 +143,22 @@ ggplot(dataSet,aes(job_category,salary_in_usd,fill = job_category))+
 ```
 ```{r}
 library(ggplot2)
+library(ggridges)
+
+dataSet$work_year = as.factor(dataSet$work_year)
+
+
+ggplot(dataSet,aes(salary_in_usd,work_year,fill= after_stat(x)))+
+  geom_density_ridges_gradient(scale=3)+
+  scale_fill_viridis_c(name = "Salary (USD)")+
+  labs(title = "Salary Distribution Changes Over Year",x = "Salary (USD)",y = "Year")+
+  theme(axis.title = element_text(face = "bold"),plot.title = element_text(face = "bold",size = 16))
+  
+```
+
+
+```{r}
+library(ggplot2)
 
 avgSalary = aggregate(salary_in_usd~work_year+job_category,dataSet,mean)
 ggplot(avgSalary,aes(work_year,salary_in_usd,color=job_category))+
@@ -148,9 +166,12 @@ ggplot(avgSalary,aes(work_year,salary_in_usd,color=job_category))+
   geom_line(size = 1)+
   labs(title = "Yearly Average Salary Trends Across Job Categories",x = "Year",y = "Avg Salary(USD)")+
   theme(axis.title = element_text(face = "bold"),plot.title = element_text(face = "bold",size = 16),legend.title = element_blank())
+
 ```
 
 
+ 
+ 
 ```{r}
 
 library(ggplot2)
@@ -165,12 +186,12 @@ m = mean(dataSet$salary_in_usd)
 dataSet$experience_level = factor(dataSet$experience_level,levels = c("EN","MI","SE","EX"))
 
 ggplot(expSal,aes(x=Group.1,y=x))+
-  geom_jitter(data = dataSet,aes(experience_level,salary_in_usd,color = experience_level),alpha = 0.5,show.legend = F)+
+  geom_jitter(data = dataSet,aes(experience_level,salary_in_usd,color = experience_level),alpha = 0.5,show.legend = F,height = 0)+
   geom_point(color = "#581845",size = 4)+
   geom_segment(aes(x = Group.1, xend = Group.1, y=mean(dataSet$salary_in_usd),yend = x),inherit.aes = F,size = 2,color = "#581845")+
   geom_hline(lty =2,yintercept = m)+
   coord_flip()+
-  labs(title = "Salary Growth with Experience",x = "Salary (USD)",y = "Experience Level")+
+  labs(title = "Salary Growth with Experience",y = "Salary (USD)",x = "Experience Level")+
   theme(axis.title = element_text(face = "bold"),plot.title = element_text(face = "bold",size = 16))
 
 
@@ -178,16 +199,67 @@ ggplot(expSal,aes(x=Group.1,y=x))+
 
 ```{r}
 library(ggplot2)
-library(ggridges)
-
-dataSet$work_year = as.factor(dataSet$work_year)
-
-
-ggplot(dataSet,aes(salary_in_usd,work_year,fill= stat(x)))+
-  geom_density_ridges_gradient(scale=3)+
-  scale_fill_viridis_c(name = "Salary (USD)")+
-  labs(title = "Salary Distribution Changes Over Time",x = "Salary (USD)",y = "Year")+
-  theme(axis.title = element_text(face = "bold"),plot.title = element_text(face = "bold",size = 16))
+ggplot(dataSet,aes(salary_in_usd,job_category,color = experience_level))+
+  geom_jitter(width = 0)+
+  coord_flip()+
+  labs(title = "How experience level affects for sallaries in job categories",y = "Job Category",x = "Salary (USD)")+
+  scale_color_discrete(name = "Experience Level", labels = c("Entry","Mid","Senior","Execative"))+
+  theme(axis.title = element_text(face = "bold"),plot.title = element_text(face = "bold",size = 16),legend.title = element_text(face = "bold"))
   
 ```
 
+```{r}
+library(ggplot2)
+library(dplyr)
+
+
+
+ggplot(dataSet,aes(salary_in_usd,company_size,color = experience_level))+
+  geom_jitter(width = 0)+
+  labs(title = "How experience level affects for sallaries in job categories",y = "Compant Size",x = "Salary (USD)")+
+  scale_color_discrete(name = "Experience Level", labels = c("Entry","Mid","Senior","Execative"))+
+  theme(axis.title = element_text(face = "bold"),plot.title = element_text(face = "bold",size = 16),legend.title = element_text(face = "bold"))+
+  coord_flip()
+
+```
+
+
+```{r}
+library(fmsb)
+
+radarData = table(work_year,remote_ratio)
+
+a = radarData[1,]/sum(radarData[1,])
+b = radarData[2,]/sum(radarData[2,])
+c = radarData[3,]/sum(radarData[3,])
+d = radarData[4,]/sum(radarData[4,])
+
+data = cbind(a,b,c,d)
+colnames(data) = c(2020,2021,2022,2023)
+data = as.data.frame(data)
+data = t(data)
+
+
+data = rbind(1,0,data)
+data = data.frame(data)
+colnames(data) = c("Remote","Hybrid","Office")
+rownames(data) = c("max","min","2020","2021","2022","2023")
+
+colors_fill = c(scales::alpha("red",0.3),
+                scales::alpha("gold",0.3),
+                scales::alpha("blue",0.3),
+                scales::alpha("black",0.3))
+
+colors_line = c(scales::alpha("red",0.9),
+                scales::alpha("gold",0.9),
+                scales::alpha("blue",0.9),
+                scales::alpha("black",0.9))
+
+radarchart(data,pcol = colors_line,pfcol = colors_fill,plty = "solid",plwd = 4,title = "Working Mode Across Years")
+
+legend(x = 0.6,y=1.35,legend = rownames(data[-c(1,2),]),
+       bty = "n",pch=20,col=colors_line,cex=1.3,pt.cex = 3)
+
+ 
+
+```

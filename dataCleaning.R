@@ -1,8 +1,8 @@
 ###############################################################################
 # Attach data set To working env
-attach(dataScienceJobSalaries)
+attach(originalDataSet)
 
-dataSet = dataScienceJobSalaries
+dataSet = originalDataSet
 ################################################################################
 
 #Changing empty value(-) to NA
@@ -312,7 +312,7 @@ summary(dataSet$company_size)
 
 finalDataSet = dataSet[c("work_year","experience_level","employment_type",
                          "job_title","job_category","salary_in_usd",
-                         "employee_residence","company_location","company_size")]
+                         "employee_residence","company_location","remote_ratio","company_size")]
 
 ################################################################################
 #Find duplicated rows in data set
