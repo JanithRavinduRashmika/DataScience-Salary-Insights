@@ -1,0 +1,608 @@
+"X","Working_Year","Designation","Experience","Employment_Status","Salary_In_Rupees","Employee_Location","Company_Location","Company_Size","Remote_Working_Ratio","DesignationCategory","USDSalary"
+1,"2020","Data Scientist","MI","FT","6,352,272.00","DE","DE","L","0","Data Scientist",82579.536
+2,"2020","Machine Learning Scientist","SE","FT","20,688,070.00","JP","JP","S","0","ML Engineer",268944.91
+3,"2020","Big Data Engineer","SE","FT","8,674,985.00","GB","GB","M","50","Data Engineer",112774.805
+4,"2020","Product Data Analyst","MI","FT","1,591,390.00","HN","HN","S","0","Data Analyst",20688.07
+5,"2020","Machine Learning Engineer","SE","FT","11,935,425.00","US","US","L","50","ML Engineer",155160.525
+6,"2020","Data Analyst","EN","FT","5,729,004.00","US","US","L","100","Data Analyst",74477.052
+7,"2020","Lead Data Scientist","SE","FT","15,118,205.00","US","US","S","100","Data Scientist",196536.665
+8,"2020","Data Scientist","MI","FT","2,843,416.00","HU","HU","L","50","Data Scientist",36964.408
+9,"2020","Business Data Analyst","MI","FT","10,741,883.00","US","US","L","100","Data Analyst",139644.479
+10,"2020","Lead Data Engineer","SE","FT","9,946,188.00","NZ","NZ","S","50","Data Engineer",129300.444
+11,"2020","Data Scientist","EN","FT","4,083,586.00","FR","FR","S","0","Data Scientist",53086.618
+12,"2020","Data Scientist","MI","FT","3,221,053.00","IN","IN","L","0","Data Scientist",41873.689
+13,"2020","Data Scientist","EN","FT","3,176,096.00","FR","FR","M","0","Data Scientist",41289.248
+14,"2020","Lead Data Analyst","MI","FT","6,922,547.00","US","US","L","100","Data Analyst",89993.111
+15,"2020","Data Analyst","MI","FT","6,763,408.00","US","US","L","100","Data Analyst",87924.304
+16,"2020","Data Analyst","MI","FT","636,556.00","PK","PK","L","50","Data Analyst",8275.228
+17,"2020","Data Engineer","EN","FT","3,317,173.00","JP","JP","S","100","Data Engineer",43123.249
+18,"2020","Big Data Engineer","SE","FT","9,074,663.00","PL","GB","S","100","Data Engineer",117970.619
+19,"2020","Data Science Consultant","EN","FT","454,103.00","IN","IN","M","50","Data Scientist",5903.339
+20,"2020","Lead Data Engineer","MI","FT","4,455,892.00","PT","US","M","100","Data Engineer",57926.596
+21,"2020","Machine Learning Engineer","MI","FT","3,447,826.00","CN","CN","M","0","ML Engineer",44821.738
+22,"2020","Product Data Analyst","MI","FT","483,146.00","IN","IN","L","100","Data Analyst",6280.898
+23,"2020","Data Engineer","SE","FT","3,811,299.00","GR","GR","L","50","Data Engineer",49546.887
+24,"2020","BI Data Analyst","MI","FT","7,797,811.00","US","US","M","0","Data Analyst",101371.543
+25,"2020","Lead Data Scientist","MI","FT","9,150,493.00","AE","AE","L","0","Data Scientist",118956.409
+26,"2020","Director of Data Science","EX","FT","25,860,088.00","US","US","L","100","Data Scientist",336181.144
+27,"2020","Research Scientist","EN","FT","3,341,919.00","NL","NL","L","50","AI Engineer",43444.947
+28,"2020","Data Engineer","SE","FT","2,666,454.00","MX","MX","S","0","Data Engineer",34663.902
+29,"2020","Business Data Analyst","EN","CT","7,956,950.00","US","US","L","100","Data Analyst",103440.35
+30,"2020","Machine Learning Manager","SE","FT","9,317,907.00","CA","CA","L","50","ML Engineer",121132.791
+31,"2020","Data Engineering Manager","MI","FT","4,718,710.00","DE","DE","S","100","Data Engineer",61343.23
+32,"2020","Big Data Engineer","EN","FT","5,569,865.00","US","US","L","100","Data Engineer",72408.245
+33,"2020","Data Scientist","SE","FT","5,444,782.00","GR","US","L","100","Data Scientist",70782.166
+34,"2020","Research Scientist","MI","FT","35,806,275.00","US","US","M","0","AI Engineer",465481.575
+35,"2020","Data Analyst","MI","FT","3,720,590.00","FR","FR","L","50","Data Analyst",48367.67
+36,"2020","Data Engineer","MI","FT","5,898,487.00","AT","AT","L","50","Data Engineer",76680.331
+37,"2020","Data Science Consultant","MI","FT","8,195,659.00","US","US","L","100","Data Scientist",106543.567
+38,"2020","Machine Learning Engineer","EN","FT","19,892,375.00","US","US","L","50","ML Engineer",258600.875
+39,"2020","Data Analyst","EN","FT","795,695.00","NG","NG","S","100","Data Analyst",10344.035
+40,"2020","Machine Learning Engineer","EN","FT","10,980,591.00","US","US","S","100","ML Engineer",142747.683
+41,"2020","Data Scientist","MI","FT","3,641,100.00","PH","US","S","100","Data Scientist",47334.3
+42,"2020","Data Engineering Manager","EX","FT","6,352,272.00","ES","ES","L","50","Data Engineer",82579.536
+43,"2020","Machine Learning Infrastructure Engineer","MI","FT","3,992,798.00","PT","PT","M","0","ML Engineer",51906.374
+44,"2020","Data Engineer","MI","FT","8,434,367.00","US","US","L","100","Data Engineer",109646.771
+45,"2020","Data Engineer","MI","FT","8,981,169.00","GB","GB","L","50","Data Engineer",116755.197
+46,"2020","ML Engineer","EN","PT","1,270,407.00","DE","DE","S","100","ML Engineer",16515.291
+47,"2020","Data Scientist","MI","FT","6,123,510.00","GB","GB","S","100","Data Scientist",79605.63
+48,"2020","Data Engineer","SE","FT","14,959,066.00","US","US","L","100","Data Engineer",194467.858
+49,"2020","Data Scientist","MI","FT","8,354,798.00","US","US","L","100","Data Scientist",108612.374
+50,"2020","Data Engineer","MI","FT","5,580,925.00","FR","FR","L","50","Data Engineer",72552.025
+51,"2020","Data Analyst","EN","FT","483,146.00","IN","IN","S","0","Data Analyst",6280.898
+52,"2020","Data Analyst","EN","FT","7,240,825.00","US","US","L","100","Data Analyst",94130.725
+53,"2020","AI Scientist","EN","FT","3,651,922.00","DK","DK","S","50","AI Engineer",47474.986
+54,"2020","Data Engineer","EN","FT","4,355,794.00","PK","DE","L","100","Data Engineer",56625.322
+55,"2020","Computer Vision Engineer","SE","FL","4,774,170.00","RU","US","S","100","AI Engineer",62064.21
+56,"2020","Principal Data Scientist","SE","FT","11,797,054.00","DE","DE","M","100","Data Scientist",153361.702
+57,"2020","Data Scientist","MI","FT","3,085,387.00","ES","ES","M","100","Data Scientist",40110.031
+58,"2020","Data Scientist","MI","FT","9,389,201.00","US","US","M","100","Data Scientist",122059.613
+59,"2020","Data Scientist","SE","FT","9,548,340.00","US","US","L","50","Data Scientist",124128.42
+60,"2020","Data Scientist","MI","FT","11,008,440.00","US","US","M","100","Data Scientist",143109.72
+61,"2020","Data Engineer","MI","FT","8,752,645.00","US","US","L","100","Data Engineer",113784.385
+62,"2020","Data Engineer","MI","FT","10,407,691.00","ES","US","M","100","Data Engineer",135299.983
+63,"2020","Data Scientist","EN","PT","1,724,191.00","IT","IT","S","50","Data Scientist",22414.483
+64,"2020","Data Scientist","SE","FT","32,782,634.00","US","US","L","100","Data Scientist",426174.242
+65,"2020","Machine Learning Engineer","SE","FT","3,629,801.00","HR","HR","S","100","ML Engineer",47187.413
+66,"2020","Data Scientist","EN","FT","4,991,076.00","DE","DE","S","50","Data Scientist",64883.988
+67,"2020","Data Scientist","EN","FT","3,920,230.00","DE","DE","S","0","Data Scientist",50962.99
+68,"2020","Data Science Manager","SE","FT","15,134,119.00","US","US","M","100","Data Scientist",196743.547
+69,"2020","Data Scientist","EN","FT","8,354,798.00","US","US","S","100","Data Scientist",108612.374
+70,"2020","Data Scientist","SE","FT","7,259,682.00","AT","AT","S","0","Data Scientist",94375.866
+71,"2020","Data Scientist","MI","FT","4,991,076.00","FR","LU","S","50","Data Scientist",64883.988
+72,"2020","Data Scientist","MI","FT","3,357,594.00","FR","FR","S","50","Data Scientist",43648.722
+73,"2021","Research Scientist","EN","FT","6,566,712.00","GB","GB","L","50","AI Engineer",85367.256
+74,"2021","BI Data Analyst","EX","FT","11,935,425.00","IN","US","L","100","Data Analyst",155160.525
+75,"2021","Head of Data","EX","FT","18,698,833.00","US","US","L","100","Data Engineer",243084.829
+76,"2021","Data Scientist","SE","FT","4,232,461.00","FR","FR","L","50","Data Scientist",55021.993
+77,"2021","BI Data Analyst","MI","FT","7,956,950.00","US","US","M","100","Data Analyst",103440.35
+78,"2021","3D Computer Vision Researcher","MI","PT","430,391.00","IN","IN","M","50","AI Engineer",5595.083
+79,"2021","ML Engineer","MI","CT","21,483,765.00","US","US","L","100","ML Engineer",279288.945
+80,"2021","Data Analyst","EN","FT","6,365,560.00","US","US","M","100","Data Analyst",82752.28
+81,"2021","Data Analytics Engineer","SE","FT","6,301,666.00","DE","DE","L","100","Data Analyst",81921.658
+82,"2021","Data Engineer","MI","FT","11,139,730.00","US","US","L","100","Data Engineer",144816.49
+83,"2021","Applied Data Scientist","MI","FT","4,315,691.00","GB","CA","L","50","Data Scientist",56103.983
+84,"2021","Machine Learning Engineer","MI","FT","3,762,205.00","ES","ES","S","100","ML Engineer",48908.665
+85,"2021","Director of Data Science","EX","FT","12,227,206.00","IT","PL","L","100","Data Scientist",158953.678
+86,"2021","Data Engineer","MI","FT","2,265,821.00","PL","PL","L","100","Data Engineer",29455.673
+87,"2021","Data Analyst","EN","FT","4,702,717.00","FR","FR","M","50","Data Analyst",61135.321
+88,"2021","Data Analytics Engineer","MI","FT","8,752,645.00","US","US","L","100","Data Analyst",113784.385
+89,"2021","Lead Data Analyst","SE","FT","13,526,815.00","US","US","L","100","Data Analyst",175848.595
+90,"2021","Data Analyst","SE","FT","6,365,560.00","BG","US","S","100","Data Analyst",82752.28
+91,"2021","Marketing Data Analyst","SE","FT","7,054,154.00","GR","DK","L","100","Data Analyst",91704.002
+92,"2021","Data Science Consultant","EN","FT","6,113,563.00","DE","DE","S","100","Data Scientist",79476.319
+93,"2021","Lead Data Analyst","MI","FT","1,560,278.00","IN","IN","L","100","Data Analyst",20283.614
+94,"2021","Lead Data Engineer","SE","FT","21,961,182.00","US","US","L","0","Data Engineer",285495.366
+95,"2021","Data Scientist","EN","FT","2,367,272.00","IN","IN","L","50","Data Scientist",30774.536
+96,"2021","Cloud Data Engineer","MI","FT","7,105,079.00","SG","SG","L","50","Data Engineer",92366.027
+97,"2021","AI Scientist","EN","PT","954,834.00","BR","US","S","100","AI Engineer",12412.842
+98,"2021","Financial Data Analyst","MI","FT","35,806,275.00","US","US","L","100","Data Analyst",465481.575
+99,"2021","Computer Vision Software Engineer","EN","FT","5,569,865.00","US","US","M","100","AI Engineer",72408.245
+100,"2021","Computer Vision Software Engineer","MI","FT","7,618,461.00","DE","US","S","100","AI Engineer",99039.993
+101,"2021","Data Analyst","MI","FT","5,967,713.00","US","US","L","0","Data Analyst",77580.269
+102,"2021","Data Engineer","SE","FT","11,935,425.00","US","US","L","100","Data Engineer",155160.525
+103,"2021","BI Data Analyst","MI","FT","2,885,111.00","HU","US","L","50","Data Analyst",37506.443
+104,"2021","Data Analyst","MI","FT","4,933,309.00","US","US","L","0","Data Analyst",64133.017
+105,"2021","Data Scientist","MI","FT","5,808,574.00","US","US","L","0","Data Scientist",75511.462
+106,"2021","Data Analyst","MI","FT","4,099,341.00","GB","GB","L","50","Data Analyst",53291.433
+107,"2021","Research Scientist","MI","FT","14,914,666.00","CA","CA","L","100","AI Engineer",193890.658
+108,"2021","Data Engineer","SE","FT","9,150,493.00","US","US","S","100","Data Engineer",118956.409
+109,"2021","Data Engineer","SE","FT","11,935,425.00","US","US","M","100","Data Engineer",155160.525
+110,"2021","Data Engineer","EN","FT","2,421,141.00","IN","IN","L","100","Data Engineer",31474.833
+111,"2021","Machine Learning Engineer","SE","FT","7,524,410.00","DE","DE","L","50","ML Engineer",97817.33
+112,"2021","Director of Data Engineering","SE","FT","9,029,229.00","GB","GB","M","100","Data Engineer",117379.977
+113,"2021","Lead Data Engineer","SE","FT","8,208,390.00","GB","GB","S","100","Data Engineer",106709.07
+114,"2021","AI Scientist","EN","PT","954,834.00","PK","US","M","100","AI Engineer",12412.842
+115,"2021","Data Engineer","MI","FT","3,611,739.00","NL","NL","L","100","Data Engineer",46952.607
+116,"2021","Machine Learning Scientist","EN","FT","17,903,138.00","US","US","L","100","ML Engineer",232740.794
+117,"2021","Data Scientist","MI","FT","3,978,475.00","NG","NG","L","100","Data Scientist",51720.175
+118,"2021","Data Science Engineer","MI","FT","3,197,819.00","GR","GR","M","100","Data Scientist",41571.647
+119,"2021","Data Analyst","EN","FT","7,161,255.00","US","US","S","100","Data Analyst",93096.315
+120,"2021","Data Engineer","MI","FT","15,913,900.00","US","US","L","100","Data Engineer",206880.7
+121,"2021","Big Data Engineer","MI","FT","4,774,170.00","ES","RO","M","50","Data Engineer",62064.21
+122,"2021","Principal Data Engineer","SE","FT","15,913,900.00","US","US","M","100","Data Engineer",206880.7
+123,"2021","Data Analyst","EN","FT","3,978,475.00","US","US","M","100","Data Analyst",51720.175
+124,"2021","Applied Data Scientist","EN","FT","8,755,589.00","GB","GB","L","0","Data Scientist",113822.657
+125,"2021","Data Analyst","EN","PT","823,863.00","ES","ES","M","50","Data Analyst",10710.219
+126,"2021","Principal Data Scientist","MI","FT","12,014,995.00","US","US","L","100","Data Scientist",156194.935
+127,"2021","Machine Learning Scientist","SE","FT","9,548,340.00","US","US","S","50","ML Engineer",124128.42
+128,"2021","Data Scientist","MI","FT","753,205.00","IN","IN","S","0","Data Scientist",9791.665
+129,"2021","Machine Learning Engineer","EN","FT","1,591,390.00","IN","IN","S","100","ML Engineer",20688.07
+130,"2021","Lead Data Scientist","SE","FT","3,228,135.00","IN","IN","L","50","Data Scientist",41965.755
+131,"2021","Machine Learning Developer","EN","FT","7,956,950.00","IQ","IQ","S","50","ML Engineer",103440.35
+132,"2021","Data Scientist","EN","FT","3,950,307.00","FR","FR","M","50","Data Scientist",51353.991
+133,"2021","Applied Machine Learning Scientist","MI","FT","3,055,469.00","VN","US","M","100","ML Engineer",39721.097
+134,"2021","Computer Vision Engineer","SE","FT","1,909,668.00","BR","BR","M","100","AI Engineer",24825.684
+135,"2021","Data Scientist","EN","FT","7,956,950.00","US","US","S","0","Data Scientist",103440.35
+136,"2021","Data Analyst","MI","FT","7,161,255.00","US","US","M","100","Data Analyst",93096.315
+137,"2021","ML Engineer","MI","FT","5,069,452.00","JP","JP","S","50","ML Engineer",65902.876
+138,"2021","ML Engineer","MI","FT","6,155,815.00","JP","JP","S","50","ML Engineer",80025.595
+139,"2021","Principal Data Scientist","SE","FT","17,505,290.00","US","US","L","0","Data Scientist",227568.77
+140,"2021","Data Scientist","EN","FT","6,365,560.00","US","US","M","100","Data Scientist",82752.28
+141,"2021","Data Analyst","MI","FT","10,741,883.00","US","US","L","100","Data Analyst",139644.479
+142,"2021","Data Science Manager","SE","FT","19,096,680.00","US","US","L","0","Data Scientist",248256.84
+143,"2021","Data Engineering Manager","SE","FT","11,935,425.00","US","US","L","0","Data Engineer",155160.525
+144,"2021","Data Scientist","MI","FT","6,564,484.00","US","US","S","100","Data Scientist",85338.292
+145,"2021","Data Engineer","MI","FT","7,956,950.00","US","US","L","100","Data Engineer",103440.35
+146,"2021","Machine Learning Engineer","SE","FT","6,583,899.00","BE","BE","M","50","ML Engineer",85590.687
+147,"2021","Research Scientist","MI","FT","4,984,950.00","FR","FR","M","50","AI Engineer",64804.35
+148,"2021","Data Engineer","MI","FT","7,161,255.00","US","US","L","100","Data Engineer",93096.315
+149,"2021","Data Engineering Manager","SE","FT","12,174,134.00","US","US","L","100","Data Engineer",158263.742
+150,"2021","Cloud Data Engineer","SE","FT","12,731,120.00","BR","US","S","100","Data Engineer",165504.56
+151,"2021","Director of Data Science","SE","FT","13,367,676.00","JP","JP","S","0","Data Scientist",173779.788
+152,"2021","Data Scientist","MI","FT","11,935,425.00","US","US","M","100","Data Scientist",155160.525
+153,"2021","Data Scientist","MI","FT","6,029,299.00","CA","CA","L","100","Data Scientist",78380.887
+154,"2021","Data Scientist","EN","FT","1,066,231.00","UA","UA","L","100","Data Scientist",13861.003
+155,"2021","Data Science Manager","SE","FT","11,458,008.00","US","US","L","100","Data Scientist",148954.104
+156,"2021","Data Science Engineer","SE","FT","10,122,911.00","CA","CA","L","50","Data Scientist",131597.843
+157,"2021","Data Scientist","MI","FT","9,473,465.00","SG","IL","M","100","Data Scientist",123155.045
+158,"2021","Applied Machine Learning Scientist","MI","FT","33,657,899.00","US","US","L","50","ML Engineer",437552.687
+159,"2021","Data Analytics Manager","SE","FT","9,548,340.00","US","US","M","100","Data Analyst",124128.42
+160,"2021","Machine Learning Engineer","EN","FT","9,946,188.00","US","US","S","100","ML Engineer",129300.444
+161,"2021","Head of Data","EX","FT","18,300,985.00","RU","RU","L","50","Data Engineer",237912.805
+162,"2021","Head of Data Science","EX","FT","6,763,408.00","RU","RU","M","0","Data Scientist",87924.304
+163,"2021","Data Engineer","MI","FT","2,257,307.00","MT","MT","L","50","Data Engineer",29344.991
+164,"2021","Data Science Consultant","EN","FT","5,079,001.00","DE","DE","L","50","Data Scientist",66027.013
+165,"2021","Director of Data Science","EX","FT","10,346,104.00","DE","DE","M","50","Data Scientist",134499.352
+166,"2021","Data Specialist","SE","FT","13,128,968.00","US","US","L","100","Data Engineer",170676.584
+167,"2021","Data Engineer","EN","FT","6,365,560.00","US","US","L","100","Data Engineer",82752.28
+168,"2021","Director of Data Science","EX","FT","19,892,375.00","US","US","L","0","Data Scientist",258600.875
+169,"2021","BI Data Analyst","EN","FT","4,376,323.00","US","US","S","50","Data Analyst",56892.199
+170,"2021","Data Architect","MI","FT","11,935,425.00","US","US","L","100","Data Engineer",155160.525
+171,"2021","Data Architect","MI","FT","13,526,815.00","US","US","L","100","Data Engineer",175848.595
+172,"2021","Data Engineer","MI","FT","6,566,712.00","GB","GB","L","100","Data Engineer",85367.256
+173,"2021","Data Analyst","EN","FT","4,774,170.00","US","US","S","100","Data Analyst",62064.21
+174,"2021","Principal Data Scientist","SE","FT","18,698,833.00","US","US","L","100","Data Scientist",243084.829
+175,"2021","Research Scientist","SE","FT","4,834,404.00","PT","PT","L","50","AI Engineer",62847.252
+176,"2021","Data Engineering Manager","SE","FT","13,845,093.00","US","US","L","100","Data Engineer",179986.209
+177,"2021","Data Scientist","MI","FT","227,489.00","MX","MX","S","0","Data Scientist",2957.357
+178,"2021","Data Scientist","MI","FT","3,185,804.00","CL","CL","L","100","Data Scientist",41415.452
+179,"2021","Machine Learning Engineer","EN","FT","6,445,130.00","US","US","S","50","ML Engineer",83786.69
+180,"2021","Data Scientist","MI","FT","451,875.00","IN","US","S","100","Data Scientist",5874.375
+181,"2021","Big Data Engineer","MI","FT","1,799,146.00","IN","IN","L","0","Data Engineer",23388.898
+182,"2021","Data Scientist","MI","FT","7,219,659.00","DE","DE","L","50","Data Scientist",93855.567
+183,"2021","Data Engineer","MI","FT","2,069,205.00","RO","US","L","0","Data Engineer",26899.665
+184,"2021","Finance Data Analyst","SE","FT","4,925,034.00","GB","GB","L","50","Data Analyst",64025.442
+185,"2021","Machine Learning Scientist","MI","FL","954,834.00","PK","PK","M","50","ML Engineer",12412.842
+186,"2021","Data Engineer","MI","FT","318,278.00","IR","IR","M","100","Data Engineer",4137.614
+187,"2021","Data Analytics Engineer","SE","FT","3,978,475.00","VN","GB","M","100","Data Analyst",51720.175
+188,"2021","Data Science Consultant","EX","FT","5,549,256.00","FR","ES","S","100","Data Scientist",72140.328
+189,"2021","Data Engineer","SE","FT","6,113,563.00","RO","GB","S","50","Data Engineer",79476.319
+190,"2021","Machine Learning Engineer","MI","FT","5,888,143.00","JP","JP","S","50","ML Engineer",76545.859
+191,"2021","Data Science Manager","SE","FT","12,094,564.00","US","FR","L","100","Data Scientist",157229.332
+192,"2021","Machine Learning Engineer","EN","FT","1,738,116.00","CO","CO","M","50","ML Engineer",22595.508
+193,"2021","Big Data Engineer","MI","FT","1,432,251.00","MD","MD","S","0","Data Engineer",18619.263
+194,"2021","Data Science Manager","SE","FT","13,845,093.00","US","US","L","100","Data Scientist",179986.209
+195,"2021","Research Scientist","SE","FT","7,647,663.00","CA","CA","L","50","AI Engineer",99419.619
+196,"2021","Data Scientist","MI","FT","11,696,717.00","US","US","L","50","Data Scientist",152057.321
+197,"2021","BI Data Analyst","EN","FT","737,768.00","KE","KE","S","100","Data Analyst",9590.984
+198,"2021","Machine Learning Engineer","SE","FT","1,936,881.00","IN","IN","L","100","ML Engineer",25179.453
+199,"2021","Data Science Manager","SE","FT","4,304,233.00","IN","US","L","50","Data Scientist",55955.029
+200,"2021","Data Science Consultant","EN","FT","7,161,255.00","US","US","S","100","Data Scientist",93096.315
+201,"2021","Data Scientist","MI","FT","4,890,898.00","DE","AT","M","50","Data Scientist",63581.674
+202,"2021","Machine Learning Infrastructure Engineer","SE","FT","15,516,053.00","US","US","M","100","ML Engineer",201708.689
+203,"2021","Data Scientist","MI","FT","3,009,716.00","ES","ES","L","100","Data Scientist",39126.308
+204,"2021","Research Scientist","SE","FT","3,978,475.00","FR","US","S","100","AI Engineer",51720.175
+205,"2021","Data Scientist","MI","FT","12,731,120.00","US","US","L","100","Data Scientist",165504.56
+206,"2021","Data Scientist","MI","FT","1,026,526.00","BR","BR","S","0","Data Scientist",13344.838
+207,"2021","Machine Learning Engineer","SE","FT","15,913,900.00","US","US","L","100","ML Engineer",206880.7
+208,"2021","Data Engineer","SE","FT","13,128,968.00","US","US","M","0","Data Engineer",170676.584
+209,"2021","Data Engineer","MI","FL","1,591,390.00","IT","US","L","0","Data Engineer",20688.07
+210,"2021","Data Analytics Manager","SE","FT","9,548,340.00","US","US","L","0","Data Analyst",124128.42
+211,"2021","Machine Learning Engineer","MI","FT","1,975,154.00","SI","SI","L","50","ML Engineer",25677.002
+212,"2021","Research Scientist","MI","FT","4,514,614.00","FR","FR","S","50","AI Engineer",58689.982
+213,"2021","Data Engineer","MI","FT","5,253,338.00","HK","GB","S","50","Data Engineer",68293.394
+214,"2021","Big Data Engineer","EN","FT","468,028.00","IN","CH","L","0","Data Engineer",6084.364
+215,"2021","Machine Learning Engineer","EN","FT","1,975,154.00","DE","DE","M","50","ML Engineer",25677.002
+216,"2021","Principal Data Engineer","SE","FT","14,720,358.00","US","US","L","100","Data Engineer",191364.654
+217,"2021","Computer Vision Engineer","EN","PT","2,276,404.00","DK","DK","S","50","AI Engineer",29593.252
+218,"2021","Data Scientist","MI","FT","7,219,659.00","DE","DE","L","50","Data Scientist",93855.567
+219,"2021","Machine Learning Engineer","MI","FT","7,054,154.00","BE","BE","M","100","ML Engineer",91704.002
+220,"2021","Data Analytics Manager","SE","FT","11,139,730.00","US","US","L","100","Data Analyst",144816.49
+221,"2021","Machine Learning Engineer","MI","FT","3,707,700.00","PL","PL","L","100","ML Engineer",48200.1
+222,"2021","Data Scientist","MI","FT","9,302,789.00","GB","GB","L","50","Data Scientist",120936.257
+223,"2021","Data Scientist","MI","FT","2,690,086.00","IN","IN","M","0","Data Scientist",34971.118
+224,"2021","Data Scientist","MI","FT","4,476,262.00","GB","GB","L","50","Data Scientist",58191.406
+225,"2021","Machine Learning Scientist","SE","FT","17,903,138.00","US","CA","L","100","ML Engineer",232740.794
+226,"2021","Principal Data Scientist","EX","CT","33,100,912.00","US","US","S","100","Data Scientist",430311.856
+227,"2021","Data Scientist","SE","FT","6,981,269.00","CA","CA","S","100","Data Scientist",90756.497
+228,"2021","Data Scientist","MI","FT","7,054,154.00","DE","DE","L","50","Data Scientist",91704.002
+229,"2021","Data Scientist","SE","FT","10,741,883.00","US","US","L","0","Data Scientist",139644.479
+230,"2021","Data Analyst","SE","FT","5,711,976.00","CA","CA","M","100","Data Analyst",74255.688
+231,"2021","Big Data Engineer","EN","FT","1,291,254.00","IN","IN","L","100","Data Engineer",16786.302
+232,"2021","ML Engineer","SE","FT","20,369,792.00","US","US","S","100","ML Engineer",264807.296
+233,"2021","Director of Data Engineering","SE","FT","15,913,900.00","US","US","L","100","Data Engineer",206880.7
+234,"2021","Data Analyst","SE","FT","15,913,900.00","US","US","L","100","Data Analyst",206880.7
+235,"2021","Data Architect","MI","FT","14,322,510.00","US","US","L","100","Data Engineer",186192.63
+236,"2021","Head of Data Science","MI","FT","8,752,645.00","US","US","S","0","Data Scientist",113784.385
+237,"2021","Research Scientist","MI","FT","5,077,330.00","CA","CA","M","100","AI Engineer",66005.29
+238,"2021","Data Scientist","MI","FT","3,724,569.00","ES","ES","M","100","Data Scientist",48419.397
+239,"2021","Data Scientist","EN","FT","318,278.00","VN","VN","M","0","Data Scientist",4137.614
+240,"2021","Data Engineer","EN","FT","1,721,645.00","IN","IN","M","50","Data Engineer",22381.385
+241,"2021","Data Scientist","SE","FT","8,250,641.00","CA","CA","L","100","Data Scientist",107258.333
+242,"2021","Data Analyst","MI","FT","6,365,560.00","US","US","L","100","Data Analyst",82752.28
+243,"2021","Data Engineer","MI","FT","8,752,645.00","US","US","L","100","Data Engineer",113784.385
+244,"2021","Data Scientist","SE","FT","13,128,968.00","US","US","L","100","Data Scientist",170676.584
+245,"2021","AI Scientist","EN","FT","1,436,468.00","IN","AS","S","100","AI Engineer",18674.084
+246,"2021","Data Engineer","MI","FT","5,745,873.00","GB","GB","L","50","Data Engineer",74696.349
+247,"2021","Data Scientist","EN","FT","2,915,665.00","FR","FR","L","50","Data Scientist",37903.645
+248,"2021","Data Engineer","MI","FT","963,030.00","TR","TR","M","0","Data Engineer",12519.39
+249,"2021","Data Engineer","SE","FT","7,661,111.00","GB","GB","L","50","Data Engineer",99594.443
+250,"2021","Principal Data Analyst","SE","FT","13,526,815.00","US","US","M","100","Data Analyst",175848.595
+251,"2021","Data Scientist","MI","FT","9,150,493.00","US","US","L","50","Data Scientist",118956.409
+252,"2021","Data Scientist","EN","FT","7,161,255.00","US","US","S","100","Data Scientist",93096.315
+253,"2021","Principal Data Engineer","EX","FT","47,741,700.00","US","US","L","100","Data Engineer",620642.1
+254,"2021","Data Scientist","EN","FT","2,259,694.00","IN","IN","M","100","Data Scientist",29376.022
+255,"2021","Data Analyst","MI","FT","7,399,964.00","US","US","L","100","Data Analyst",96199.532
+256,"2021","Big Data Architect","SE","FT","7,933,318.00","CA","CA","M","50","Data Engineer",103133.134
+257,"2021","Data Engineer","MI","FT","15,913,900.00","US","US","L","100","Data Engineer",206880.7
+258,"2021","Principal Data Scientist","SE","FT","13,826,155.00","DE","DE","M","100","Data Scientist",179740.015
+259,"2021","Machine Learning Engineer","SE","FT","14,720,358.00","US","US","L","50","ML Engineer",191364.654
+260,"2021","Director of Data Science","EX","FT","11,286,615.00","DE","DE","L","0","Data Scientist",146725.995
+261,"2021","Data Scientist","MI","FT","10,344,035.00","US","US","L","50","Data Scientist",134472.455
+262,"2021","Data Analyst","SE","FT","5,079,001.00","DE","DE","L","50","Data Analyst",66027.013
+263,"2021","Data Scientist","MI","FT","1,345,043.00","IN","IN","S","100","Data Scientist",17485.559
+264,"2021","Machine Learning Engineer","SE","FT","5,272,673.00","IN","IN","L","0","ML Engineer",68544.749
+265,"2021","Data Scientist","MI","FT","2,031,568.00","RS","DE","S","100","Data Scientist",26410.384
+266,"2021","Lead Data Engineer","SE","FT","12,731,120.00","PR","US","S","50","Data Engineer",165504.56
+267,"2021","Data Engineer","MI","FT","7,411,899.00","US","US","M","0","Data Engineer",96354.687
+268,"2021","Data Engineer","MI","FT","8,893,881.00","US","US","M","0","Data Engineer",115620.453
+269,"2021","Data Engineer","MI","FT","2,229,219.00","TR","TR","M","100","Data Engineer",28979.847
+270,"2021","Data Engineer","EN","FT","5,173,052.00","DE","DE","M","50","Data Engineer",67249.676
+271,"2021","Data Engineer","EN","FT","5,768,789.00","US","US","L","100","Data Engineer",74994.257
+272,"2021","Computer Vision Engineer","SE","FT","1,504,421.00","BR","BR","M","0","AI Engineer",19557.473
+273,"2021","Data Science Consultant","EN","FT","6,113,563.00","DE","DE","L","0","Data Scientist",79476.319
+274,"2021","Machine Learning Engineer","EN","FT","6,763,408.00","NL","DE","S","100","ML Engineer",87924.304
+275,"2021","Data Scientist","SE","FT","6,181,277.00","FR","FR","M","50","Data Scientist",80356.601
+276,"2021","Data Scientist","EN","FT","7,956,950.00","US","US","M","100","Data Scientist",103440.35
+277,"2021","Data Scientist","EN","FT","4,615,031.00","US","US","L","50","Data Scientist",59995.403
+278,"2021","AI Scientist","SE","FT","4,376,323.00","ES","ES","L","100","AI Engineer",56892.199
+279,"2021","Data Scientist","SE","FT","1,604,996.00","TR","TR","L","50","Data Scientist",20864.948
+280,"2021","Business Data Analyst","EN","FT","4,702,717.00","LU","LU","L","100","Data Analyst",61135.321
+281,"2021","Data Engineer","MI","FT","8,911,784.00","US","US","L","100","Data Engineer",115853.192
+282,"2021","Research Scientist","EN","FT","7,956,950.00","JE","CN","L","0","AI Engineer",103440.35
+283,"2021","Data Engineer","MI","PT","5,549,256.00","NL","NL","L","100","Data Engineer",72140.328
+284,"2021","Staff Data Scientist","SE","CT","8,354,798.00","US","US","M","100","Data Scientist",108612.374
+285,"2021","Research Scientist","MI","FT","5,569,785.00","CZ","CZ","L","50","AI Engineer",72407.205
+286,"2021","Data Science Manager","SE","FT","7,532,447.00","IN","IN","L","50","Data Scientist",97921.811
+287,"2021","Head of Data","SE","FT","8,182,848.00","SI","SI","L","100","Data Engineer",106377.024
+288,"2021","Data Scientist","MI","FT","8,673,076.00","US","US","L","50","Data Scientist",112749.988
+289,"2021","Machine Learning Engineer","MI","FT","4,063,137.00","IT","IT","L","50","ML Engineer",52820.781
+290,"2022","Data Engineer","SE","FT","10,741,883.00","US","US","M","100","Data Engineer",139644.479
+291,"2022","Data Analyst","SE","FT","12,333,273.00","US","US","M","100","Data Analyst",160332.549
+292,"2022","Data Analyst","SE","FT","9,596,082.00","US","US","M","100","Data Analyst",124749.066
+293,"2022","Data Scientist","MI","FT","10,344,035.00","US","US","M","0","Data Scientist",134472.455
+294,"2022","Data Scientist","MI","FT","7,161,255.00","US","US","M","0","Data Scientist",93096.315
+295,"2022","Data Engineer","MI","FT","13,526,815.00","US","US","M","100","Data Engineer",175848.595
+296,"2022","Data Engineer","MI","FT","11,935,425.00","US","US","M","100","Data Engineer",155160.525
+297,"2022","Data Analyst","SE","FT","8,124,046.00","US","US","M","100","Data Analyst",105612.598
+298,"2022","Data Analyst","SE","FT","6,755,451.00","US","US","M","100","Data Analyst",87820.863
+299,"2022","Data Scientist","SE","FT","10,870,785.00","US","US","M","100","Data Scientist",141320.205
+300,"2022","Data Scientist","SE","FT","7,906,026.00","US","US","M","100","Data Scientist",102778.338
+301,"2022","Data Scientist","SE","FT","9,372,412.00","GB","GB","M","0","Data Scientist",121841.356
+302,"2022","Data Scientist","SE","FT","8,331,086.00","GB","GB","M","0","Data Scientist",108304.118
+303,"2022","Data Scientist","SE","FT","11,617,147.00","US","US","M","100","Data Scientist",151022.911
+304,"2022","Data Scientist","SE","FT","9,787,049.00","US","US","M","100","Data Scientist",127231.637
+305,"2022","Data Engineer","EN","FT","4,165,543.00","GB","GB","M","100","Data Engineer",54152.059
+306,"2022","Data Analyst","SE","FT","7,877,381.00","US","US","M","0","Data Analyst",102405.953
+307,"2022","Data Analyst","SE","FT","9,230,062.00","US","US","M","0","Data Analyst",119990.806
+308,"2022","Data Analyst","MI","FT","8,455,055.00","US","US","M","0","Data Analyst",109915.715
+309,"2022","Data Analyst","MI","FT","10,065,542.00","US","US","M","0","Data Analyst",130852.046
+310,"2022","Data Engineer","EX","FT","19,255,819.00","US","US","M","100","Data Engineer",250325.647
+311,"2022","Data Engineer","EX","FT","15,913,900.00","US","US","M","100","Data Engineer",206880.7
+312,"2022","Data Scientist","MI","FT","5,206,869.00","GB","GB","M","0","Data Scientist",67689.297
+313,"2022","Data Scientist","MI","FT","3,124,137.00","GB","GB","M","0","Data Scientist",40613.781
+314,"2022","Data Engineer","MI","FT","6,248,275.00","GB","GB","M","0","Data Engineer",81227.575
+315,"2022","Data Engineer","MI","FT","4,165,543.00","GB","GB","M","0","Data Engineer",54152.059
+316,"2022","Data Scientist","SE","FT","13,146,473.00","US","US","M","100","Data Scientist",170904.149
+317,"2022","Data Engineer","EN","FT","3,644,840.00","GB","GB","M","100","Data Engineer",47382.92
+318,"2022","Data Scientist","SE","FT","9,561,071.00","US","US","M","100","Data Scientist",124293.923
+319,"2022","Data Analyst","SE","FT","7,186,717.00","US","US","M","100","Data Analyst",93427.321
+320,"2022","Data Engineer","SE","FT","14,476,875.00","US","US","M","0","Data Engineer",188199.375
+321,"2022","Data Engineer","SE","FT","10,528,636.00","US","US","M","0","Data Engineer",136872.268
+322,"2022","Data Engineer","SE","FT","17,514,043.00","US","US","M","0","Data Engineer",227682.559
+323,"2022","Data Engineer","SE","FT","12,737,486.00","US","US","M","0","Data Engineer",165587.318
+324,"2022","Data Scientist","SE","FT","14,322,510.00","US","US","L","0","Data Scientist",186192.63
+325,"2022","Data Scientist","SE","FT","9,548,340.00","US","US","L","0","Data Scientist",124128.42
+326,"2022","Data Analyst","SE","FT","9,881,736.00","US","US","M","100","Data Analyst",128462.568
+327,"2022","Data Analyst","EX","FT","10,344,035.00","US","US","M","100","Data Analyst",134472.455
+328,"2022","Data Analyst","EX","FT","8,752,645.00","US","US","M","100","Data Analyst",113784.385
+329,"2022","Data Analyst","SE","FT","13,526,815.00","US","US","M","100","Data Analyst",175848.595
+330,"2022","Data Analyst","MI","FT","9,190,277.00","US","US","M","100","Data Analyst",119473.601
+331,"2022","Data Analyst","SE","FT","8,983,397.00","US","US","M","100","Data Analyst",116784.161
+332,"2022","Data Analyst","SE","FT","7,186,717.00","US","US","M","100","Data Analyst",93427.321
+333,"2022","Data Analyst","SE","FT","8,983,397.00","US","US","M","100","Data Analyst",116784.161
+334,"2022","Data Analyst","SE","FT","7,186,717.00","US","US","M","100","Data Analyst",93427.321
+335,"2022","Data Engineer","SE","FT","13,160,795.00","US","US","M","100","Data Engineer",171090.335
+336,"2022","Data Engineer","SE","FT","10,528,636.00","US","US","M","100","Data Engineer",136872.268
+337,"2022","Data Analyst","MI","FT","13,288,107.00","US","US","M","100","Data Analyst",172745.391
+338,"2022","Data Engineer","SE","FT","19,407,001.00","US","US","M","100","Data Engineer",252291.013
+339,"2022","Data Analyst","SE","FT","10,869,194.00","US","US","M","100","Data Analyst",141299.522
+340,"2022","Data Analyst","SE","FT","8,695,355.00","US","US","M","100","Data Analyst",113039.615
+341,"2022","Data Engineer","SE","FT","10,254,519.00","US","US","M","100","Data Engineer",133308.747
+342,"2022","Data Engineer","SE","FT","7,455,662.00","US","US","M","100","Data Engineer",96923.606
+343,"2022","Head of Data Science","EX","FT","17,823,568.00","US","US","M","100","Data Scientist",231706.384
+344,"2022","Head of Data Science","EX","FT","13,357,730.00","US","US","M","100","Data Scientist",173650.49
+345,"2022","Analytics Engineer","EX","FT","13,924,663.00","US","US","M","100","Data Analyst",181020.619
+346,"2022","Data Engineer","SE","FT","12,460,584.00","US","US","M","100","Data Engineer",161987.592
+347,"2022","Data Engineer","SE","FT","8,657,162.00","US","US","M","0","Data Engineer",112543.106
+348,"2022","Data Scientist","SE","FT","7,602,866.00","US","US","M","0","Data Scientist",98837.258
+349,"2022","Data Engineer","SE","FT","8,991,354.00","US","US","L","0","Data Engineer",116887.602
+350,"2022","Data Analyst","SE","FT","10,741,883.00","US","US","M","100","Data Analyst",139644.479
+351,"2022","Data Science Manager","SE","FT","12,837,902.00","US","US","M","100","Data Scientist",166892.726
+352,"2022","Data Science Manager","SE","FT","10,912,241.00","US","US","M","100","Data Scientist",141859.133
+353,"2022","Data Scientist","SE","FT","13,288,107.00","US","US","M","100","Data Scientist",172745.391
+354,"2022","Data Scientist","SE","FT","9,787,049.00","US","US","M","100","Data Scientist",127231.637
+355,"2022","Data Engineer","SE","FT","6,248,275.00","GB","GB","M","0","Data Engineer",81227.575
+356,"2022","Data Engineer","SE","FT","5,206,869.00","GB","GB","M","0","Data Engineer",67689.297
+357,"2022","Data Scientist","SE","FT","11,935,425.00","US","US","M","0","Data Scientist",155160.525
+358,"2022","Data Scientist","SE","FT","16,828,949.00","US","US","M","100","Data Scientist",218776.337
+359,"2022","Data Architect","SE","FT","15,309,172.00","CA","CA","M","100","Data Engineer",199019.236
+360,"2022","Data Architect","SE","FT","7,216,954.00","CA","CA","M","100","Data Engineer",93820.402
+361,"2022","Data Analyst","SE","FT","10,344,035.00","CA","CA","M","100","Data Analyst",134472.455
+362,"2022","Data Analyst","SE","FT","4,877,610.00","CA","CA","M","100","Data Analyst",63408.93
+363,"2022","Data Analyst","SE","FT","10,344,035.00","CA","CA","M","100","Data Analyst",134472.455
+364,"2022","Data Analyst","SE","FT","4,877,610.00","CA","CA","M","100","Data Analyst",63408.93
+365,"2022","Data Engineer","SE","FT","12,731,120.00","US","US","L","0","Data Engineer",165504.56
+366,"2022","Data Scientist","SE","FT","11,028,333.00","US","US","M","100","Data Scientist",143368.329
+367,"2022","Data Engineer","SE","FT","10,821,452.00","US","US","M","0","Data Engineer",140678.876
+368,"2022","Data Analyst","MI","FT","4,615,031.00","US","US","S","0","Data Analyst",59995.403
+369,"2022","Analytics Engineer","EX","FT","10,741,883.00","US","US","M","100","Data Analyst",139644.479
+370,"2022","Data Scientist","SE","FT","13,526,815.00","US","US","M","100","Data Scientist",175848.595
+371,"2022","Data Scientist","SE","FT","9,787,049.00","US","US","M","100","Data Scientist",127231.637
+372,"2022","Machine Learning Engineer","SE","FT","15,090,356.00","US","US","M","0","ML Engineer",196174.628
+373,"2022","Machine Learning Engineer","SE","FT","13,128,649.00","US","US","M","0","ML Engineer",170672.437
+374,"2022","ETL Developer","MI","FT","4,372,901.00","GR","GR","M","0","AI Engineer",56847.713
+375,"2022","ETL Developer","MI","FT","4,372,901.00","GR","GR","M","0","AI Engineer",56847.713
+376,"2022","Lead Data Engineer","EX","FT","9,404,080.00","CA","CA","S","100","Data Engineer",122253.04
+377,"2022","Data Analyst","SE","FT","10,503,174.00","US","US","M","0","Data Analyst",136541.262
+378,"2022","Data Engineer","SE","FT","13,160,795.00","US","US","M","100","Data Engineer",171090.335
+379,"2022","Data Architect","SE","FT","16,612,122.00","US","US","M","100","Data Engineer",215957.586
+380,"2022","Data Architect","SE","FT","11,760,372.00","US","US","M","100","Data Engineer",152884.836
+381,"2022","Data Engineer","SE","FT","10,900,544.00","US","US","M","100","Data Engineer",141707.072
+382,"2022","Data Engineer","SE","FT","8,081,874.00","US","US","M","100","Data Engineer",105064.362
+383,"2022","Data Analyst","SE","FT","10,254,519.00","US","US","M","100","Data Analyst",133308.747
+384,"2022","Data Analyst","SE","FT","7,455,662.00","US","US","M","100","Data Analyst",96923.606
+385,"2022","Head of Machine Learning","EX","FT","6,289,094.00","IN","IN","L","50","ML Engineer",81758.222
+386,"2022","Data Engineer","SE","FT","10,528,636.00","US","US","M","100","Data Engineer",136872.268
+387,"2022","Machine Learning Engineer","EN","FT","2,967,942.00","GB","GB","L","100","ML Engineer",38583.246
+388,"2022","Data Analyst","SE","FT","13,049,398.00","US","US","M","0","Data Analyst",169642.174
+389,"2022","Data Engineer","SE","FT","12,333,273.00","US","US","M","100","Data Engineer",160332.549
+390,"2022","Machine Learning Engineer","MI","FT","9,893,115.00","GB","GB","M","0","ML Engineer",128610.495
+391,"2022","Machine Learning Engineer","MI","FT","7,810,383.00","GB","GB","M","0","ML Engineer",101534.979
+392,"2022","AI Scientist","MI","FT","9,548,340.00","US","US","M","0","AI Engineer",124128.42
+393,"2022","Data Analyst","SE","FT","8,983,397.00","US","US","M","100","Data Analyst",116784.161
+394,"2022","Data Analyst","SE","FT","7,186,717.00","US","US","M","100","Data Analyst",93427.321
+395,"2022","Data Analytics Manager","SE","FT","11,537,578.00","US","US","M","100","Data Analyst",149988.514
+396,"2022","Data Analytics Manager","SE","FT","8,386,625.00","US","US","M","100","Data Analyst",109026.125
+397,"2022","Machine Learning Engineer","MI","FT","6,996,705.00","FR","DE","M","100","ML Engineer",90957.165
+398,"2022","Data Engineer","MI","FT","9,372,412.00","GB","GB","M","0","Data Engineer",121841.356
+399,"2022","Data Scientist","SE","FT","17,131,313.00","US","US","L","100","Data Scientist",222707.069
+400,"2022","Data Scientist","SE","FT","12,587,895.00","US","US","L","100","Data Scientist",163642.635
+401,"2022","Data Engineer","SE","FT","16,637,982.00","US","US","L","100","Data Engineer",216293.766
+402,"2022","Data Engineer","SE","FT","12,301,445.00","US","US","L","100","Data Engineer",159918.785
+403,"2022","Data Analyst","SE","FT","9,224,810.00","US","US","M","0","Data Analyst",119922.53
+404,"2022","Data Analyst","SE","FT","6,498,123.00","US","US","M","0","Data Analyst",84475.599
+405,"2022","Data Engineer","SE","FT","13,924,663.00","US","US","M","100","Data Engineer",181020.619
+406,"2022","Data Engineer","MI","FT","7,810,383.00","GB","GB","M","0","Data Engineer",101534.979
+407,"2022","Data Analyst","MI","FT","4,615,031.00","US","US","S","0","Data Analyst",59995.403
+408,"2022","Data Engineer","SE","FT","14,608,960.00","US","US","L","100","Data Engineer",189916.48
+409,"2022","Data Analyst","MI","FT","4,165,543.00","GB","GB","M","100","Data Analyst",54152.059
+410,"2022","Data Scientist","SE","FT","14,322,510.00","US","US","M","100","Data Scientist",186192.63
+411,"2022","Data Scientist","MI","FT","5,727,572.00","GB","GB","M","0","Data Scientist",74458.436
+412,"2022","Data Scientist","MI","FT","3,644,840.00","GB","GB","M","0","Data Scientist",47382.92
+413,"2022","Data Engineer","MI","FT","5,247,529.00","GR","GR","M","100","Data Engineer",68217.877
+414,"2022","Data Engineer","MI","FT","3,935,587.00","GR","GR","M","100","Data Engineer",51162.631
+415,"2022","Data Engineer","MI","FT","6,248,275.00","GB","GB","M","100","Data Engineer",81227.575
+416,"2022","Data Engineer","MI","FT","4,686,166.00","GB","GB","M","100","Data Engineer",60920.158
+417,"2022","Data Scientist","SE","FT","20,688,070.00","US","US","M","100","Data Scientist",268944.91
+418,"2022","Data Science Engineer","SE","FT","4,774,170.00","AR","MX","L","100","Data Scientist",62064.21
+419,"2022","Data Engineer","MI","FT","5,084,491.00","US","US","M","0","Data Engineer",66098.383
+420,"2022","Machine Learning Scientist","MI","FT","12,731,120.00","US","US","L","100","ML Engineer",165504.56
+421,"2022","Machine Learning Scientist","MI","FT","8,935,655.00","US","US","L","100","ML Engineer",116163.515
+422,"2022","Data Science Manager","MI","FT","19,176,250.00","US","US","M","100","Data Scientist",249291.25
+423,"2022","Data Science Manager","MI","FT","12,651,551.00","US","US","M","100","Data Scientist",164470.163
+424,"2022","Data Scientist","SE","FT","14,322,510.00","US","US","M","0","Data Scientist",186192.63
+425,"2022","Data Scientist","SE","FT","6,365,560.00","US","US","M","0","Data Scientist",82752.28
+426,"2022","Data Engineer","MI","FT","6,596,312.00","US","US","M","0","Data Engineer",85752.056
+427,"2022","Data Engineer","SE","FT","8,020,606.00","US","US","L","100","Data Engineer",104267.878
+428,"2022","Data Engineer","MI","FT","3,935,587.00","ES","ES","M","100","Data Engineer",51162.631
+429,"2022","Data Scientist","SE","FT","11,171,558.00","US","US","L","0","Data Scientist",145230.254
+430,"2022","Data Analyst","MI","FT","3,124,137.00","GB","GB","M","100","Data Analyst",40613.781
+431,"2022","Data Analyst","MI","FT","3,498,353.00","ES","ES","M","100","Data Analyst",45478.589
+432,"2022","Data Analyst","MI","FT","2,623,725.00","ES","ES","M","100","Data Analyst",34108.425
+433,"2022","Data Engineer","MI","FT","6,996,705.00","ES","ES","M","100","Data Engineer",90957.165
+434,"2022","Data Engineer","MI","FT","6,122,077.00","ES","ES","M","100","Data Engineer",79587.001
+435,"2022","Data Engineer","MI","FT","8,331,086.00","GB","GB","M","100","Data Engineer",108304.118
+436,"2022","Data Engineer","MI","FT","7,289,680.00","GB","GB","M","100","Data Engineer",94765.84
+437,"2022","Data Engineer","MI","FT","5,247,529.00","ES","ES","M","100","Data Engineer",68217.877
+438,"2022","Data Engineer","MI","FT","6,996,705.00","GR","GR","M","100","Data Engineer",90957.165
+439,"2022","Machine Learning Engineer","SE","FT","15,090,356.00","US","US","M","0","ML Engineer",196174.628
+440,"2022","Machine Learning Engineer","SE","FT","13,128,649.00","US","US","M","0","ML Engineer",170672.437
+441,"2022","Data Analyst","MI","FT","3,498,353.00","GR","GR","M","100","Data Analyst",45478.589
+442,"2022","Data Analyst","MI","FT","2,623,725.00","GR","GR","M","100","Data Analyst",34108.425
+443,"2022","Data Engineer","MI","FT","7,810,383.00","GB","GB","M","100","Data Engineer",101534.979
+444,"2022","Data Engineer","MI","FT","6,248,275.00","GB","GB","M","100","Data Engineer",81227.575
+445,"2022","Data Scientist","SE","FT","17,131,313.00","US","US","L","0","Data Scientist",222707.069
+446,"2022","Data Engineer","MI","FT","6,122,077.00","GR","GR","M","100","Data Engineer",79587.001
+447,"2022","Data Engineer","SE","FT","16,637,982.00","US","US","L","100","Data Engineer",216293.766
+448,"2022","Data Engineer","SE","FT","12,301,445.00","US","US","L","100","Data Engineer",159918.785
+449,"2022","Data Engineer","SE","FT","14,322,510.00","US","US","M","100","Data Engineer",186192.63
+450,"2022","ML Engineer","EN","FT","1,749,176.00","PT","PT","L","100","ML Engineer",22739.288
+451,"2022","Data Engineer","SE","FT","6,365,560.00","US","US","M","100","Data Engineer",82752.28
+452,"2022","Machine Learning Developer","MI","FT","6,269,360.00","CA","CA","M","100","ML Engineer",81501.68
+453,"2022","Director of Data Science","EX","FT","15,673,521.00","CA","CA","L","50","Data Scientist",203755.773
+454,"2022","Machine Learning Engineer","MI","FT","9,548,340.00","US","US","S","100","ML Engineer",124128.42
+455,"2022","Computer Vision Engineer","EN","FT","9,946,188.00","US","US","M","0","AI Engineer",129300.444
+456,"2022","NLP Engineer","MI","FT","2,962,850.00","US","US","L","50","AI Engineer",38517.05
+457,"2022","Data Engineer","SE","FT","8,354,798.00","US","US","M","100","Data Engineer",108612.374
+458,"2022","Lead Machine Learning Engineer","SE","FT","6,996,705.00","DE","DE","M","0","ML Engineer",90957.165
+459,"2022","Business Data Analyst","MI","FT","1,467,421.00","IN","IN","M","100","Data Analyst",19076.473
+460,"2022","Data Scientist","MI","FT","2,515,590.00","IN","IN","L","100","Data Scientist",32702.67
+461,"2022","Machine Learning Infrastructure Engineer","MI","FT","4,635,321.00","PT","PT","L","50","ML Engineer",60259.173
+462,"2022","Financial Data Analyst","EN","FT","7,956,950.00","US","US","L","50","Data Analyst",103440.35
+463,"2022","Data Engineer","MI","PT","4,372,901.00","DE","DE","L","50","Data Engineer",56847.713
+464,"2022","Data Scientist","EN","FT","1,467,421.00","IN","IN","M","100","Data Scientist",19076.473
+465,"2022","Principal Data Scientist","SE","FT","12,943,889.00","DE","DE","M","100","Data Scientist",168270.557
+466,"2022","Data Engineer","EN","FT","9,548,340.00","US","US","M","100","Data Engineer",124128.42
+467,"2022","Research Scientist","SE","FT","11,458,008.00","US","US","L","50","AI Engineer",148954.104
+468,"2022","Data Scientist","SE","FT","8,346,045.00","US","US","M","100","Data Scientist",108498.585
+469,"2022","Data Engineer","SE","FT","7,956,950.00","US","US","M","100","Data Engineer",103440.35
+470,"2022","Data Scientist","SE","FT","11,139,730.00","US","US","M","100","Data Scientist",144816.49
+471,"2022","Data Analyst","MI","FT","10,741,883.00","US","US","M","100","Data Analyst",139644.479
+472,"2022","Data Analyst","MI","FT","3,978,475.00","US","US","M","100","Data Analyst",51720.175
+473,"2022","Data Scientist","SE","FT","17,505,290.00","US","US","M","100","Data Scientist",227568.77
+474,"2022","Data Scientist","SE","FT","11,139,730.00","US","US","M","100","Data Scientist",144816.49
+475,"2022","Data Scientist","MI","FT","14,579,360.00","GB","GB","M","0","Data Scientist",189531.68
+476,"2022","Data Scientist","MI","FT","7,289,680.00","GB","GB","M","0","Data Scientist",94765.84
+477,"2022","Data Scientist","SE","FT","14,728,314.00","US","US","M","100","Data Scientist",191468.082
+478,"2022","Machine Learning Engineer","SE","FT","17,505,290.00","US","US","M","100","ML Engineer",227568.77
+479,"2022","Data Scientist","MI","FT","15,913,900.00","US","US","M","100","Data Scientist",206880.7
+480,"2022","Data Scientist","MI","FT","9,548,340.00","US","US","M","100","Data Scientist",124128.42
+481,"2022","Machine Learning Engineer","SE","FT","9,548,340.00","AE","AE","S","100","ML Engineer",124128.42
+482,"2022","Machine Learning Engineer","SE","FT","5,172,018.00","AE","AE","S","100","ML Engineer",67236.234
+483,"2022","Data Engineer","EX","FT","25,780,518.00","US","US","M","100","Data Engineer",335146.734
+484,"2022","Data Engineer","EX","FT","17,187,012.00","US","US","M","100","Data Engineer",223431.156
+485,"2022","Data Engineer","SE","FT","16,709,595.00","US","US","M","100","Data Engineer",217224.735
+486,"2022","Machine Learning Engineer","SE","FT","9,548,340.00","US","US","M","100","ML Engineer",124128.42
+487,"2022","Data Scientist","SE","FT","18,300,985.00","US","US","M","100","Data Scientist",237912.805
+488,"2022","Data Scientist","EN","PT","7,956,950.00","DZ","DZ","M","50","Data Scientist",103440.35
+489,"2022","Data Scientist","MI","FL","7,956,950.00","CA","US","M","100","Data Scientist",103440.35
+490,"2022","Applied Machine Learning Scientist","EN","CT","2,536,278.00","TN","CZ","M","100","ML Engineer",32971.614
+491,"2022","Head of Data","SE","FT","15,913,900.00","MY","US","M","100","Data Engineer",206880.7
+492,"2022","Principal Data Analyst","MI","FT","5,967,713.00","CA","CA","S","100","Data Analyst",77580.269
+493,"2022","Data Scientist","MI","FT","2,831,879.00","PL","PL","L","100","Data Scientist",36814.427
+494,"2022","Machine Learning Developer","SE","FT","6,269,360.00","CA","CA","M","100","ML Engineer",81501.68
+495,"2022","Data Scientist","SE","FT","7,956,950.00","BR","US","M","100","Data Scientist",103440.35
+496,"2022","Machine Learning Scientist","MI","FT","12,174,134.00","US","US","M","50","ML Engineer",158263.742
+497,"2022","Data Engineer","EN","FT","4,617,816.00","PK","DE","M","100","Data Engineer",60031.608
+498,"2022","Data Scientist","SE","FT","13,128,968.00","US","US","M","100","Data Scientist",170676.584
+499,"2022","Research Scientist","SE","FT","7,433,940.00","FR","FR","L","50","AI Engineer",96641.22
+500,"2022","Data Scientist","EN","FT","4,169,124.00","CA","CA","L","100","Data Scientist",54198.612
+501,"2022","Machine Learning Engineer","SE","FT","4,985,109.00","NL","NL","L","100","ML Engineer",64806.417
+502,"2022","Head of Data","MI","FT","2,623,725.00","EE","EE","S","100","Data Engineer",34108.425
+503,"2022","Data Scientist","EN","FT","3,182,780.00","JP","MY","L","100","Data Scientist",41376.14
+504,"2022","Machine Learning Engineer","MI","FT","6,956,364.00","AU","AU","L","100","ML Engineer",90432.732
+505,"2022","Data Engineer","SE","FT","9,150,493.00","US","US","M","100","Data Engineer",118956.409
+506,"2022","Data Scientist","EN","FT","6,898,914.00","AU","AU","M","50","Data Scientist",89685.882
+507,"2022","Applied Machine Learning Scientist","MI","FT","5,967,713.00","BO","US","L","100","ML Engineer",77580.269
+508,"2022","Research Scientist","MI","FT","5,160,003.00","AT","AT","L","0","AI Engineer",67080.039
+509,"2022","Research Scientist","EN","FT","9,548,340.00","US","US","L","100","AI Engineer",124128.42
+510,"2022","Applied Data Scientist","MI","FT","12,492,412.00","US","US","L","100","Data Scientist",162401.356
+511,"2022","Computer Vision Software Engineer","EN","FT","11,935,425.00","AU","AU","S","100","AI Engineer",155160.525
+512,"2022","Business Data Analyst","MI","FT","5,642,432.00","CA","CA","L","50","Data Analyst",73351.616
+513,"2022","Data Engineer","EN","FT","5,172,018.00","US","US","S","100","Data Engineer",67236.234
+514,"2022","Machine Learning Engineer","SE","FT","5,684,763.00","IE","IE","S","100","ML Engineer",73901.919
+515,"2022","Data Analytics Engineer","EN","FT","1,591,390.00","PK","PK","M","0","Data Analyst",20688.07
+516,"2022","Data Scientist","MI","FT","3,819,336.00","RU","US","S","100","Data Scientist",49651.368
+517,"2022","Data Science Manager","SE","FT","12,134,349.00","US","US","M","100","Data Scientist",157746.537
+518,"2022","Data Engineer","MI","FT","5,422,423.00","FR","FR","M","100","Data Engineer",70491.499
+519,"2022","Data Scientist","MI","FT","9,735,010.00","CH","CH","L","0","Data Scientist",126555.13
+520,"2022","Applied Data Scientist","SE","FT","30,236,410.00","US","US","L","100","Data Scientist",393073.33
+521,"2022","Data Scientist","MI","FT","5,517,031.00","CA","CA","M","100","Data Scientist",71721.403
+522,"2022","Computer Vision Engineer","EN","FT","795,695.00","PT","LU","M","100","AI Engineer",10344.035
+523,"2022","Data Analyst","MI","FT","1,591,390.00","GR","GR","S","100","Data Analyst",20688.07
+524,"2022","Data Analytics Lead","SE","FT","32,225,648.00","US","US","L","100","Data Analyst",418933.424
+525,"2022","Data Scientist","MI","FT","10,741,883.00","US","US","L","100","Data Scientist",139644.479
+526,"2022","Applied Data Scientist","SE","FT","14,083,802.00","US","US","L","100","Data Scientist",183089.426
+527,"2022","Data Scientist","MI","FT","6,206,421.00","US","US","M","100","Data Scientist",80683.473
+528,"2022","Data Analyst","SE","FT","10,741,883.00","US","US","M","100","Data Analyst",139644.479
+529,"2022","Data Analyst","SE","FT","7,956,950.00","US","US","M","100","Data Analyst",103440.35
+530,"2022","Data Analyst","SE","FT","7,186,717.00","US","US","M","100","Data Analyst",93427.321
+531,"2022","Data Analyst","MI","FT","6,763,408.00","CA","CA","M","0","Data Analyst",87924.304
+532,"2022","Data Analyst","MI","FT","5,967,713.00","CA","CA","M","0","Data Analyst",77580.269
+533,"2022","Machine Learning Engineer","SE","FT","17,027,873.00","US","US","M","100","ML Engineer",221362.349
+534,"2022","Machine Learning Engineer","SE","FT","15,325,086.00","US","US","M","100","ML Engineer",199226.118
+535,"2022","Data Architect","SE","FT","21,197,315.00","US","US","M","100","Data Engineer",275565.095
+536,"2022","Data Architect","SE","FT","16,957,852.00","US","US","M","100","Data Engineer",220452.076
+537,"2022","Data Analyst","SE","FT","8,983,397.00","US","US","M","100","Data Analyst",116784.161
+538,"2022","Data Engineer","SE","FT","12,333,273.00","US","US","M","100","Data Engineer",160332.549
+539,"2022","Data Scientist","MI","FT","11,243,170.00","US","US","M","0","Data Scientist",146161.21
+540,"2022","Data Scientist","MI","FT","8,124,046.00","US","US","M","0","Data Scientist",105612.598
+541,"2022","Data Analyst","SE","FT","9,224,810.00","US","US","M","100","Data Analyst",119922.53
+542,"2022","Data Analyst","SE","FT","6,498,123.00","US","US","M","100","Data Analyst",84475.599
+543,"2022","Data Engineer","MI","FT","16,446,936.00","US","US","M","0","Data Engineer",213810.168
+544,"2022","Data Engineer","MI","FT","7,885,337.00","US","US","M","0","Data Engineer",102509.381
+545,"2022","Data Engineer","SE","FT","10,344,035.00","US","US","M","100","Data Engineer",134472.455
+546,"2022","Data Engineer","SE","FT","9,150,493.00","US","US","M","100","Data Engineer",118956.409
+547,"2022","Data Engineer","SE","FT","8,792,430.00","US","US","M","100","Data Engineer",114301.59
+548,"2022","Data Engineer","SE","FT","10,344,035.00","US","US","M","100","Data Engineer",134472.455
+549,"2022","Data Analyst","SE","FT","7,881,359.00","US","US","M","100","Data Analyst",102457.667
+550,"2022","Data Engineer","SE","FT","12,731,120.00","US","US","M","100","Data Engineer",165504.56
+551,"2022","Data Scientist","SE","FT","16,335,618.00","US","US","L","0","Data Scientist",212363.034
+552,"2022","Data Scientist","SE","FT","11,171,558.00","US","US","L","0","Data Scientist",145230.254
+553,"2022","Data Scientist","SE","FT","14,004,232.00","US","US","M","100","Data Scientist",182055.016
+554,"2022","Data Scientist","SE","FT","11,458,008.00","US","US","M","100","Data Scientist",148954.104
+555,"2022","Data Engineer","SE","FT","15,921,857.00","US","US","M","100","Data Engineer",206984.141
+556,"2022","Data Engineer","SE","FT","12,731,120.00","US","US","M","100","Data Engineer",165504.56
+557,"2022","Data Engineer","SE","FT","11,537,578.00","US","US","M","100","Data Engineer",149988.514
+558,"2022","Data Engineer","SE","FT","5,609,650.00","US","US","M","0","Data Engineer",72925.45
+559,"2022","Data Scientist","SE","FT","16,335,618.00","US","US","M","0","Data Scientist",212363.034
+560,"2022","Data Scientist","SE","FT","11,171,558.00","US","US","M","0","Data Scientist",145230.254
+561,"2022","Analytics Engineer","SE","FT","16,335,618.00","US","US","M","0","Data Analyst",212363.034
+562,"2022","Analytics Engineer","SE","FT","14,696,487.00","US","US","M","0","Data Analyst",191054.331
+563,"2022","Data Engineer","SE","FT","13,932,619.00","US","US","M","100","Data Engineer",181124.047
+564,"2022","Data Engineer","SE","FT","11,159,622.00","US","US","M","100","Data Engineer",145075.086
+565,"2022","Data Analyst","SE","FT","9,241,997.00","US","US","M","100","Data Analyst",120145.961
+566,"2022","Data Engineer","SE","FT","4,296,753.00","US","US","M","0","Data Engineer",55857.789
+567,"2022","Data Analyst","SE","FT","13,526,815.00","US","US","M","100","Data Analyst",175848.595
+568,"2022","Data Analyst","MI","FT","5,206,869.00","GB","GB","M","0","Data Analyst",67689.297
+569,"2022","Data Analyst","SE","FT","6,365,560.00","US","US","M","100","Data Analyst",82752.28
+570,"2022","Data Scientist","SE","FT","11,139,730.00","US","US","M","100","Data Scientist",144816.49
+571,"2022","Data Scientist","SE","FT","16,709,595.00","US","US","M","100","Data Scientist",217224.735
+572,"2022","Data Scientist","SE","FT","11,139,730.00","US","US","M","100","Data Scientist",144816.49
+573,"2022","Data Analyst","SE","FT","7,956,950.00","US","US","M","100","Data Analyst",103440.35
+574,"2022","Data Analyst","SE","FT","5,490,296.00","US","US","M","100","Data Analyst",71373.848
+575,"2022","Data Scientist","SE","FT","16,709,595.00","US","US","M","100","Data Scientist",217224.735
+576,"2022","Data Scientist","SE","FT","11,139,730.00","US","US","M","100","Data Scientist",144816.49
+577,"2022","Data Scientist","SE","FT","16,709,595.00","US","US","M","100","Data Scientist",217224.735
+578,"2022","Data Analyst","SE","FT","11,941,393.00","US","US","M","100","Data Analyst",155238.109
+579,"2022","Data Engineer","SE","FT","7,956,950.00","US","US","M","100","Data Engineer",103440.35
+580,"2022","Data Engineer","SE","FT","1,989,238.00","US","US","M","100","Data Engineer",25860.094
+581,"2022","Data Analyst","SE","FT","10,065,542.00","US","US","M","100","Data Analyst",130852.046
+582,"2022","Data Analyst","SE","FT","8,455,055.00","US","US","M","100","Data Analyst",109915.715
+583,"2022","Data Engineer","SE","FT","17,514,043.00","US","US","M","100","Data Engineer",227682.559
+584,"2022","Data Engineer","SE","FT","12,737,486.00","US","US","M","100","Data Engineer",165587.318
+585,"2022","Data Analyst","SE","FT","8,354,798.00","US","US","M","100","Data Analyst",108612.374
+586,"2022","Data Analyst","SE","FT","8,826,247.00","US","US","M","100","Data Analyst",114741.211
+587,"2022","Data Analyst","MI","FT","3,644,840.00","GB","GB","M","0","Data Analyst",47382.92
+588,"2022","Data Scientist","SE","FT","11,139,730.00","US","US","M","100","Data Scientist",144816.49
+589,"2022","Data Analyst","SE","FT","7,877,381.00","US","US","M","0","Data Analyst",102405.953
+590,"2022","Data Analyst","SE","FT","4,774,170.00","US","US","M","100","Data Analyst",62064.21
+591,"2022","Data Architect","SE","FT","15,322,221.00","US","US","M","100","Data Engineer",199188.873
+592,"2022","Data Architect","SE","FT","11,525,960.00","US","US","M","100","Data Engineer",149837.48
+593,"2022","Data Scientist","SE","FT","18,300,985.00","US","US","M","100","Data Scientist",237912.805
+594,"2022","Data Scientist","SE","FT","11,935,425.00","US","US","M","100","Data Scientist",155160.525
+595,"2022","Data Analytics Manager","SE","FT","11,956,113.00","US","US","M","100","Data Analyst",155429.469
+596,"2022","Data Analytics Manager","SE","FT","8,695,355.00","US","US","M","100","Data Analyst",113039.615
+597,"2022","Data Scientist","SE","FT","16,709,595.00","US","US","M","100","Data Scientist",217224.735
+598,"2022","Data Analyst","SE","FT","13,526,815.00","US","US","M","100","Data Analyst",175848.595
+599,"2022","Data Scientist","MI","FT","12,731,120.00","US","US","M","100","Data Scientist",165504.56
+600,"2022","Data Scientist","MI","FT","10,344,035.00","US","US","M","100","Data Scientist",134472.455
+601,"2022","Data Analyst","EN","FT","5,331,157.00","CA","CA","M","0","Data Analyst",69305.041
+602,"2022","Data Analyst","EN","FT","4,137,614.00","CA","CA","M","0","Data Analyst",53788.982
+603,"2022","Data Engineer","SE","FT","12,253,703.00","US","US","M","100","Data Engineer",159298.139
+604,"2022","Data Engineer","SE","FT","10,025,757.00","US","US","M","100","Data Engineer",130334.841
+605,"2022","Data Analyst","SE","FT","10,264,466.00","US","US","M","0","Data Analyst",133438.058
+606,"2022","Data Analyst","SE","FT","11,935,425.00","US","US","M","100","Data Analyst",155160.525
+607,"2022","AI Scientist","MI","FT","15,913,900.00","IN","US","L","100","AI Engineer",206880.7
